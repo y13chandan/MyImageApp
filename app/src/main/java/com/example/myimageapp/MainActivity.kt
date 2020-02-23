@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         var width = displayMetrics.widthPixels
         var height = displayMetrics.heightPixels
 
-        rl1.layoutParams.height = height - 60
+        rl1.layoutParams.height = height - 60   // 60 is the height of edittext at bottom
 
     }
 }
